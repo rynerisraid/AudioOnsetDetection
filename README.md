@@ -7,4 +7,9 @@ The onset detection only check the onset time in the ground-truth files
 Salamon J , Joan Serrà, Emilia Gómez. Tonal representations for music retrieval: From version identification to query-by-humming[J]. International Journal of Multimedia Information Retrieval, 2013.  
 http://mtg.upf.edu/download/datasets/MTG-QBH
 
-# Evaluation
+# Tips of onset detection.exe
+cmd> onset_detection.exe *.wav  
+output *csv file with time
+0.011
+1.222
+3.222
