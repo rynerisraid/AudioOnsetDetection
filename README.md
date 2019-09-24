@@ -9,7 +9,7 @@ http://mtg.upf.edu/download/datasets/MTG-QBH
 
 # Tips of onset detection.exe
 cmd> onset_detection.exe *.wav  
-output *csv file with time
-0.011
-1.222
+output *csv file with time  
+0.011  
+1.222  
 3.222
