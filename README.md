@@ -29,7 +29,7 @@ our RNN             |0.915|0.850|0.880|
 our LSTM            |0.926|0.850|0.885|
 
                     
-
+CNN\RNN onset function is the state-of-art approaches that construct a function to represent onset versus non-onset. However, the recall decrease while the precision increse that would have less potential to detect more onset, i.e., the we could not get an acceptable F1-measure. Our aprraches have more accuray with less change of recall, then get more F1-measure.
 
 
 ##### onset function(CNN):  
