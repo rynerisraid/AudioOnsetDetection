@@ -40,3 +40,4 @@ our LSTM            |0.926|0.850|0.885|
 ##### our approach that add a verification step to the onset detection:  
 baseline: modify the tradidtional peak-picking with sliding window because of post-processing  
 our CNN,our RNN,our LSTM: training the network after the baseline. 
+
