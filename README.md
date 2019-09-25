@@ -20,20 +20,21 @@ raw data of baseline and verification
 
 
                     
-                     |precision |recall |f1-measure|                 
+                     |precision |recall |f1-measure| 
+                     onset function(CNN) |0.646     |0.863  |0.732     |  
+                     onset function(RNN) |0.711|0.686|0.671|
+                     baseline            |0.414|0.922|0.564|
+                     our CNN             |0.916|0.836|0.872|
+                     our RNN             |0.915|0.850|0.880|
+                     our LSTM            |0.926|0.850|0.885|
 --------------------|----------|-------|----------|
-onset function(CNN) |0.646     |0.863  |0.732     |  
-onset function(RNN) |0.711|0.686|0.671|
-baseline            |0.414|0.922|0.564|
-our CNN             |0.916|0.836|0.872|
-our RNN             |0.915|0.850|0.880|
-our LSTM            |0.926|0.850|0.885|
 
-onset function(CNN):  
+
+##### onset function(CNN):  
 [1]Musical Onset Detection with Convolutional Neural Networks” Jan Schlüter and Sebastian Böck. Proceedings of the 6th International Workshop on Machine Learning and Music, 2013.
-nset function(RNN):  
+##### nset function(RNN):  
 [1]	“Universal Onset Detection with bidirectional Long Short-Term Memory Neural Networks” Florian Eyben, Sebastian Böck, Björn Schuller and Alex Graves. Proceedings of the 11th International Society for Music Information Retrieval Conference (ISMIR), 2010.  
 [2]	“Online Real-time Onset Detection with Recurrent Neural Networks” Sebastian Böck, Andreas Arzt, Florian Krebs and Markus Schedl. Proceedings of the 15th International Conference on Digital Audio Effects (DAFx), 2012.  
-our approach that add a verification step to the onset detection:  
+##### our approach that add a verification step to the onset detection:  
 baseline: modify the tradidtional peak-picking with sliding window because of post-processing  
 our CNN,our RNN,our LSTM: training the network after the baseline. 
