@@ -19,7 +19,8 @@ output *csv file with time
 raw data of baseline and verification
 
 
-|onset function(CNN) |0.646|0.863|0.732|
+|                    |precision |recall |f1-measure|  
+|onset function(CNN) |0.646     |0.863  |0.732     |  
 |onset function(RNN) |0.711|0.686|0.671|
 |baseline            |0.414|0.922|0.564|
 |our CNN             |0.916|0.836|0.872|
