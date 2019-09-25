@@ -39,7 +39,7 @@ CNN\RNN onset function is the state-of-art approaches that construct a function 
 [2]	“Online Real-time Onset Detection with Recurrent Neural Networks” Sebastian Böck, Andreas Arzt, Florian Krebs and Markus Schedl. Proceedings of the 15th International Conference on Digital Audio Effects (DAFx), 2012.  
 ##### our approach that add a verification step to the onset detection:  
 baseline: modify the tradidtional peak-picking with sliding window because of post-processing  
-our CNN,our RNN,our LSTM: training the network after the baseline. 
+our CNN,our RNN,our LSTM: training the network after the baseline approach. 
 
 ---------------------------------------------------------------------
 Training sets and annotations, as well as network training source code, will be released in the near furture.
