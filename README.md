@@ -27,7 +27,6 @@ raw data of baseline and verification
                      our CNN             |0.916|0.836|0.872|
                      our RNN             |0.915|0.850|0.880|
                      our LSTM            |0.926|0.850|0.885|
---------------------|----------|-------|----------|
 
 
 ##### onset function(CNN):  
