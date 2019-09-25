@@ -41,3 +41,5 @@ our LSTM            |0.926|0.850|0.885|
 baseline: modify the tradidtional peak-picking with sliding window because of post-processing  
 our CNN,our RNN,our LSTM: training the network after the baseline. 
 
+---------------------------------------------------------------------
+Training sets and annotations, as well as network training source code, will be released in the near furture.
